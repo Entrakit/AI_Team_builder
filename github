@@ -1,0 +1,23 @@
+name: Scheduled Project Reminders
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Runs at 9 AM every Monday
+
+jobs:
+  create-reminder:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Create Reminder Issue
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: 'Weekly Project Review',
+            body: 'It\'s time for our weekly project review. Please update your tasks and report any blockers.',
+            labels: ['reminder']
+          })

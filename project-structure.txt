@@ -1,0 +1,40 @@
+ai-team-builder-dj-mixer/
+├── README.md
+├── package.json
+├── src/
+│   ├── ai-team/
+│   │   ├── README.md
+│   │   ├── coordinator/
+│   │   │   └── index.js
+│   │   ├── project-manager/
+│   │   │   └── index.js
+│   │   ├── ui-ux-designer/
+│   │   │   └── index.js
+│   │   ├── frontend-developer/
+│   │   │   └── index.js
+│   │   ├── backend-developer/
+│   │   │   └── index.js
+│   │   ├── database-engineer/
+│   │   │   └── index.js
+│   │   ├── qa-tester/
+│   │   │   └── index.js
+│   │   └── devops-engineer/
+│   │       └── index.js
+│   ├── dj-mixer/
+│   │   ├── README.md
+│   │   ├── components/
+│   │   │   ├── BeatPad.js
+│   │   │   ├── Turntable.js
+│   │   │   ├── Mixer.js
+│   │   │   └── SoundSetManager.js
+│   │   ├── utils/
+│   │   │   └── audio.js
+│   │   └── index.js
+│   └── index.js
+├── tests/
+│   ├── ai-team/
+│   └── dj-mixer/
+├── docs/
+│   ├── ai-team/
+│   └── dj-mixer/
+└── .gitignore

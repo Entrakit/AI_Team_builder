@@ -1,0 +1,46 @@
+name: AI Team Task
+description: Create a new task for an AI team member
+title: "[AI Task]: "
+labels: ["ai-team"]
+assignees: []
+body:
+  - type: dropdown
+    id: ai-role
+    attributes:
+      label: AI Team Member
+      options:
+        - Project Manager AI
+        - UI/UX Designer AI
+        - Frontend Developer AI
+        - Backend Developer AI
+        - Database Engineer AI
+        - QA Tester AI
+        - DevOps Engineer AI
+    validations:
+      required: true
+  - type: textarea
+    id: task-description
+    attributes:
+      label: Task Description
+      description: Detailed description of the task
+    validations:
+      required: true
+  - type: input
+    id: estimated-time
+    attributes:
+      label: Estimated Time
+      description: Estimated time to complete this task
+      placeholder: "e.g., 2 days"
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true

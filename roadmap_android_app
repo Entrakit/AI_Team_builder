@@ -1,0 +1,45 @@
+ai-team-builder-dj-mixer/
+├── android/
+│   ├── app/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── AndroidManifest.xml
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── example/
+│   │   │   │   │           └── aiTeamBuilderDjMixer/
+│   │   │   │   │               └── MainActivity.java
+│   │   │   │   ├── res/
+│   │   │   │   │   ├── layout/
+│   │   │   │   │   │   └── activity_main.xml
+│   │   │   │   │   └── values/
+│   │   │   │   │       └── strings.xml
+│   │   │   │   └── assets/
+│   │   │   └── test/
+│   │   └── build.gradle
+│   └── build.gradle
+├── assets/
+│   ├── fonts/
+│   ├── images/
+│   └── sounds/
+├── components/
+│   ├── ai/
+│   │   ├── ui-ux-designer/
+│   │   ├── frontend-developer/
+│   │   ├── backend-developer/
+│   │   ├── database-engineer/
+│   │   ├── qa-tester/
+│   │   ├── devops-engineer/
+│   │   └── project-manager/
+│   └── dj-mixer/
+│       ├── interface/
+│       ├── sound-library/
+│       └── effects/
+├── docs/
+│   ├── installation.md
+│   ├── contributing.md
+│   └── license.md
+├── node_modules/
+├── package.json
+├── README.md
+└── .gitignore

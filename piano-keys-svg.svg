@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150">
+  <rect width="420" height="150" fill="#f0f0f0"/>
+  <!-- White keys -->
+  <rect x="0" y="0" width="60" height="150" fill="white" stroke="black"/>
+  <rect x="60" y="0" width="60" height="150" fill="white" stroke="black"/>
+  <rect x="120" y="0" width="60" height="150" fill="white" stroke="black"/>
+  <rect x="180" y="0" width="60" height="150" fill="white" stroke="black"/>
+  <rect x="240" y="0" width="60" height="150" fill="white" stroke="black"/>
+  <rect x="300" y="0" width="60" height="150" fill="white" stroke="black"/>
+  <rect x="360" y="0" width="60" height="150" fill="white" stroke="black"/>
+  <!-- Black keys -->
+  <rect x="40" y="0" width="40" height="100" fill="black"/>
+  <rect x="100" y="0" width="40" height="100" fill="black"/>
+  <rect x="220" y="0" width="40" height="100" fill="black"/>
+  <rect x="280" y="0" width="40" height="100" fill="black"/>
+  <rect x="340" y="0" width="40" height="100" fill="black"/>
+  <!-- Key labels -->
+  <text x="30" y="140" font-family="Arial" font-size="20" text-anchor="middle">C</text>
+  <text x="90" y="140" font-family="Arial" font-size="20" text-anchor="middle">D</text>
+  <text x="150" y="140" font-family="Arial" font-size="20" text-anchor="middle">E</text>
+  <text x="210" y="140" font-family="Arial" font-size="20" text-anchor="middle">F</text>
+  <text x="270" y="140" font-family="Arial" font-size="20" text-anchor="middle">G</text>
+  <text x="330" y="140" font-family="Arial" font-size="20" text-anchor="middle">A</text>
+  <text x="390" y="140" font-family="Arial" font-size="20" text-anchor="middle">B</text>
+</svg>
+
